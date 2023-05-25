@@ -3,6 +3,7 @@ package me.ElectronicsBoy.argumentparser;
 import java.util.HashMap;
 
 public class ArgumentParser {
+	public static final String VERSION = "V1.0.0";
 	private HashMap<String, Argument> parsedArgs = new HashMap<String, Argument>();
 	
 	public ArgumentParser(String[] args) {
